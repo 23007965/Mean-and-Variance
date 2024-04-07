@@ -51,6 +51,7 @@ It shows the distance of a random variable from its mean. It is calcualted as
 
 # Name: P PARTHIBAN
 # Register number: 212223230145
+```
 import numpy as np
 L=[int(i) for i in input().split()]
 N=len(L); M=max(L) 
@@ -73,7 +74,7 @@ SD=np.sqrt(var)
 print("The Mean arrival rate is %.3f "%mean)
 print("The Variance of arrival from feeder is %.3f "%var) 
 print("The Standard deviation of arrival from feeder is %.3F "%SD)
-
+```
 
 # Output : 
 
